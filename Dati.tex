@@ -21,10 +21,10 @@
 \newcommand{\telStudente}{+ 39 366 15 85 654}
 
 % Dati del Tutor Aziendale
-\newcommand{\nomeTutorAziendale}{nomeTutor}
-\newcommand{\cognomeTutorAziendale}{cognomeTutor}
-\newcommand{\emailTutorAziendale}{mail@mail.it}
-\newcommand{\telTutorAziendale}{+ 39 000 00 00 000}
+\newcommand{\nomeTutorAziendale}{ing. Fabio}
+\newcommand{\cognomeTutorAziendale}{Pallaro}
+\newcommand{\emailTutorAziendale}{f.pallaro@synclab.it}
+\newcommand{\telTutorAziendale}{+39 333 13 68 500}
 \newcommand{\ruoloTutorAziendale}{}
 
 % Dati dell'Azienda
@@ -36,69 +36,74 @@
 
 % Dati del Tutor Interno (Docente)
 \newcommand{\titoloTutorInterno}{Prof.}
-\newcommand{\nomeTutorInterno}{NomeDocente}
-\newcommand{\cognomeTutorInterno}{CognomeDocente}
+\newcommand{\nomeTutorInterno}{Tullio}
+\newcommand{\cognomeTutorInterno}{Vardanega}
 
 \newcommand{\prospettoSettimanale}{
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+        \item \textbf{Prima Settimana (40 ore)}
         \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste relativamente
+            al sistema da sviluppare;
+            \item Presentazione strumenti di lavoro per la condivisione del materiale di studio e per la gestione dell’avanzamento;
+            \item Condivisione scaletta di argomenti;
+            \item Ripasso concetti Metodologia Agile/Scrum;
+            \item Ripasso del linguaggio Java SE;
+            \item Ripasso concetti Web (Servlet, servizi Rest, Json ecc.);
+            \item Studio principi generali di Spring Core (IOC, Dependency Injection).
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Seconda Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Studio SpringBoot;
+            \item Studio Spring Data/DataRest.
         \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Terza Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Ripasso linguaggio Javascript;
+            \item Studio del linguaggio TypeScript.
         \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quarta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Studio piattaforma NodeJS e AngularCLI;
+            \item Studio framework Angular.
         \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quinta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Analisi e studio del progetto TripHippie;
+            \item Progettazione ed implementazione della nuova maschera di Chat.
         \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Sesta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Progettazione ed implementazione nuova maschera "Chat";
+            \item Scrittura dei service (su front-end) di chiamata al back-end.
         \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Settima Settimana - Sottotitolo (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Eventuale implementazione su back end per la funzionalità di chat;
         \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
+        \item \textbf{Ottava Settimana - Conclusione (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Termine integrazioni e collaudo finale.
         \end{itemize}
     \end{itemize}
 }
 
 % Indicare il totale complessivo (deve essere compreso tra le 300 e le 320 ore)
-\newcommand{\totaleOre}{}
+\newcommand{\totaleOre}{320}
 
 \newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
+     \item \underline{\textit{O01}}: Acquisizione competenze sulle tematiche sopra descritte;;
+	 \item \underline{\textit{O02}}: Capacità di raggiungere gli obiettivi richiesti in autonomia seguendo il cronoprogramma;
+	 \item \underline{\textit{O03}}: Portare a termine le implementazioni previste con una percentuale di superamento pari al 80\% (equivalente alla maschera di chat senza persistenza su back end);
 	 
 }
 
 \newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
+	 \item \underline{\textit{D01}}: Portare a termine le implementazioni previste con una percentuale di superamento pari al 100\% (equivalente alla funzionalità di chat completa).
 }
 
 \newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
+	 \item \underline{\textit{F01}}: Realizzazione funzionalità di chat completa.
 }
